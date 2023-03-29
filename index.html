@@ -1,0 +1,503 @@
+<html
+  class="wf-proximanova-n4-active wf-proximanova-n7-active wf-utopiastd-i4-active wf-proximanova-n3-active wf-adobegaramondpro-n7-active wf-adobegaramondpro-n4-active wf-adobegaramondpro-n6-active wf-utopiastd-n4-active wf-utopiastd-n7-active wf-active"
+  foxified=""
+  crosspilot=""
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="/js/jquery.js"></script>
+
+    <script src="/js/fade.js"></script>
+    <script type="text/javascript">
+      function scroller(area, time) {
+        var target_offset = $("#" + area).offset();
+        var target_top = target_offset.top;
+        $("html, body").animate({ scrollTop: target_top - 95 }, time);
+      }
+      function boxes() {
+        var h = $(".main .inner_project").outerHeight();
+        $(".main .inner_project").each(function () {
+          $(this)
+            .find("img.proj_image")
+            .css("min-height", h)
+            .css("max-width", "150%");
+        });
+      }
+      function slider_height() {
+        var t = $(window).height();
+        $(".slider, .slider__wrapper, .slider__item").css("height", t);
+      }
+
+      $(document).ready(function () {
+        $("ul.twits").innerfade({
+          speed: 1000,
+          timeout: 6000,
+          type: "sequence",
+          containerheight: "75px",
+        });
+        // Bind the touch element for the Tablet/Phone
+        //$('body').bind('touchend', function() {});
+
+        $("img.menu_link").click(function (e) {
+          e.preventDefault();
+          $(".menu").fadeToggle();
+        });
+      });
+    </script>
+    <title>beyondarete | Architects</title>
+    <meta
+      name="description"
+      content="Established in march 2009, beyondarete is a partnership of dynamic architects with a passion for excellence and a unique approach to creating quality in the design of our built environment."
+    />
+    <link rel="canonical" href="http://www.beyondarete.com" />
+    <meta property="og:url" content="http://www.beyondarete.com/" />
+    <meta property="og:title" content="Architects" />
+    <meta
+      property="og:description"
+      content="Established in march 2009, beyondarete is a partnership of dynamic architects with a passion for excellence and a unique approach to creating quality in the design of our built environment."
+    />
+    <meta property="og:site_name" content="beyondarete" />
+    <meta
+      property="og:image"
+      content="http://www.beyondarete.com/images/logo.jpg"
+    />
+    <script type="text/javascript" src="/js/glide.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".home .wrapper").fadeTo(0.0001, 0.0001);
+      });
+      $(window).bind("load", function () {
+        slider_height();
+        $("#homage img").fadeIn();
+        setTimeout(function () {
+          $("#homage img").fadeOut();
+          $(".home header").delay(500).fadeIn();
+          $(".home header .menu").delay(1500).fadeIn();
+          $("#homage").delay(2500).fadeOut();
+          $(".home .wrapper").delay(3000).fadeTo(500, 1);
+        }, 3000);
+        $(".slider").glide({
+          transitionType: "fade",
+        });
+      });
+      $(window).resize(function () {
+        slider_height();
+      });
+    </script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-57811198-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <script src="/js/wdc3gdk.js"></script>
+    <style type="text/css">
+      .tk-proxima-nova {
+        font-family: "proxima-nova", sans-serif;
+      }
+      .tk-adobe-garamond-pro {
+        font-family: "adobe-garamond-pro", sans-serif;
+      }
+      .tk-utopia-std {
+        font-family: "utopia-std", sans-serif;
+      }
+    </style>
+    <style type="text/css">
+      @font-face {
+        font-family: proxima-nova;
+        src: url(https://use.typekit.net/af/bc719c/00000000000000000001499c/23/l?subset_id=2&fvd=n7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/bc719c/00000000000000000001499c/23/d?subset_id=2&fvd=n7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/bc719c/00000000000000000001499c/23/a?subset_id=2&fvd=n7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: proxima-nova;
+        src: url(https://use.typekit.net/af/42fca5/0000000000000000000148a4/23/l?subset_id=2&fvd=n4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/42fca5/0000000000000000000148a4/23/d?subset_id=2&fvd=n4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/42fca5/0000000000000000000148a4/23/a?subset_id=2&fvd=n4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: proxima-nova;
+        src: url(https://use.typekit.net/af/3d81f6/0000000000000000000148a2/23/l?subset_id=2&fvd=n3&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/3d81f6/0000000000000000000148a2/23/d?subset_id=2&fvd=n3&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/3d81f6/0000000000000000000148a2/23/a?subset_id=2&fvd=n3&v=3)
+            format("opentype");
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: adobe-garamond-pro;
+        src: url(https://use.typekit.net/af/04397e/0000000000000000000130e3/23/l?subset_id=2&fvd=n7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/04397e/0000000000000000000130e3/23/d?subset_id=2&fvd=n7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/04397e/0000000000000000000130e3/23/a?subset_id=2&fvd=n7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: adobe-garamond-pro;
+        src: url(https://use.typekit.net/af/3df1cc/0000000000000000000130e6/23/l?subset_id=2&fvd=n4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/3df1cc/0000000000000000000130e6/23/d?subset_id=2&fvd=n4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/3df1cc/0000000000000000000130e6/23/a?subset_id=2&fvd=n4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: adobe-garamond-pro;
+        src: url(https://use.typekit.net/af/850e14/0000000000000000000130e7/23/l?subset_id=2&fvd=n6&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/850e14/0000000000000000000130e7/23/d?subset_id=2&fvd=n6&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/850e14/0000000000000000000130e7/23/a?subset_id=2&fvd=n6&v=3)
+            format("opentype");
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: utopia-std;
+        src: url(https://use.typekit.net/af/3fcaad/0000000000000000000131a3/23/l?subset_id=2&fvd=n4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/3fcaad/0000000000000000000131a3/23/d?subset_id=2&fvd=n4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/3fcaad/0000000000000000000131a3/23/a?subset_id=2&fvd=n4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: utopia-std;
+        src: url(https://use.typekit.net/af/263433/0000000000000000000131a2/23/l?subset_id=2&fvd=i4&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/263433/0000000000000000000131a2/23/d?subset_id=2&fvd=i4&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/263433/0000000000000000000131a2/23/a?subset_id=2&fvd=i4&v=3)
+            format("opentype");
+        font-weight: 400;
+        font-style: italic;
+        font-stretch: normal;
+        font-display: auto;
+      }
+      @font-face {
+        font-family: utopia-std;
+        src: url(https://use.typekit.net/af/030873/0000000000000000000131a0/23/l?subset_id=2&fvd=n7&v=3)
+            format("woff2"),
+          url(https://use.typekit.net/af/030873/0000000000000000000131a0/23/d?subset_id=2&fvd=n7&v=3)
+            format("woff"),
+          url(https://use.typekit.net/af/030873/0000000000000000000131a0/23/a?subset_id=2&fvd=n7&v=3)
+            format("opentype");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: auto;
+      }
+    </style>
+    <script>
+      try {
+        Typekit.load();
+      } catch (e) {}
+    </script>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+  </head>
+
+  <body class="home">
+    <div id="homage" style="display: none">
+      <img src="/images/logo.png" alt="Logo" style="display: none" />
+    </div>
+    <header style="display: block">
+      <div class="header">
+        <a href="/" title="adebari_konsult Home"
+          ><img src="/images/logo.png" alt="beyondarete Logo" class="logo"
+        /></a>
+        <img src="/images/icon-menu.png" class="menu_link mobile" />
+        <div class="menu" style="display: block">
+          <a href="/" title="adebari_konsult" class="active">Home</a>
+          <a href="/about-us.html" title="About adebari_konsult">About Us</a>
+          <a href="/projects.html" title="adebari_konsult Projects">Projects</a>
+          <a href="/blog.html" title="adebari_konsult Blog">Blog</a>
+          <a href="/contact-us.html" title="Contact adebari_konsult">Contact</a>
+        </div>
+        <!--close menu-->
+      </div>
+      <!--close header-->
+    </header>
+    <div id="banner_wrap" class="projects">
+      <div class="overlay">&nbsp;</div>
+      <div class="wrapper" style="opacity: 1">
+        <div class="column">
+          <h1>A PASSION FOR EXCELLENCE</h1>
+          <h2 class="border">
+            Arete (Ahr-i-tey); The aggregate of qualities, as excellence, valour
+            and virtue
+          </h2>
+          <div class="introduction"></div>
+          <!--close introduction-->
+        </div>
+        <!--close column-->
+      </div>
+      <!--close wrapper-->
+    </div>
+    <!--close banner_wrap-->
+    <div id="supersized">
+      <div class="slider" style="height: 739px">
+        <ul class="slider__wrapper" style="height: 739px; width: 1288px">
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/1.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/2.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/3.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/4.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/5.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/6.jpg" />
+          </li>
+          <li
+            class="slider__item slider__item--current"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 1;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 2;
+            "
+          >
+            <img src="/images/banners/7.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/8.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/9.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/10.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/11.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/12.jpg" />
+          </li>
+          <li
+            class="slider__item"
+            style="
+              height: 739px;
+              width: 1288px;
+              opacity: 0;
+              position: absolute;
+              transition: opacity 500ms linear 0s;
+              z-index: 1;
+            "
+          >
+            <img src="/images/banners/13.jpg" />
+          </li>
+        </ul>
+        <div class="slider__arrows">
+          <div
+            class="slider__arrows-item slider__arrows-item--right"
+            data-distance="1"
+          >
+            next
+          </div>
+          <div
+            class="slider__arrows-item slider__arrows-item--left"
+            data-distance="-1"
+          >
+            prev
+          </div>
+        </div>
+        <div
+          class="slider__nav"
+          style="left: 50%; width: 0px; margin-left: 0px"
+        >
+          <a href="#" class="slider__nav-item" data-distance="0" style=""></a
+          ><a href="#" class="slider__nav-item" data-distance="1"></a
+          ><a href="#" class="slider__nav-item" data-distance="2"></a
+          ><a href="#" class="slider__nav-item" data-distance="3"></a
+          ><a href="#" class="slider__nav-item" data-distance="4"></a
+          ><a href="#" class="slider__nav-item" data-distance="5"></a
+          ><a
+            href="#"
+            class="slider__nav-item slider__nav-item--current"
+            data-distance="6"
+          ></a
+          ><a href="#" class="slider__nav-item" data-distance="7"></a
+          ><a href="#" class="slider__nav-item" data-distance="8"></a
+          ><a href="#" class="slider__nav-item" data-distance="9"></a
+          ><a href="#" class="slider__nav-item" data-distance="10"></a
+          ><a href="#" class="slider__nav-item" data-distance="11"></a
+          ><a href="#" class="slider__nav-item" data-distance="12"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
